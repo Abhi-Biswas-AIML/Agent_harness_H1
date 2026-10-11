@@ -28,13 +28,6 @@ WORKSPACE = ROOT / "workspace"
 MEMORY_FILE = ROOT / "memory.md"
 MCP_CONFIG = ROOT / "mcp_servers.json"
 
-
-async def run_mcp_agent(user_prompt: str, message_history: list):
-    # Initialize your AsyncExitStack, stdio_client, and AsyncOpenAI here
-    # Use the user_prompt and message_history to generate the response
-    # Return the final string response
-    pass
-
 # ---------------------------------------------------------------------------
 # Pillar 3: the model registry. Every entry is just an OpenAI-compatible
 # endpoint. Cloud or local, frontier or free - same client, same harness.
